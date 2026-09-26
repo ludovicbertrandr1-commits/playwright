@@ -2,9 +2,9 @@ name: Tests Planifiés
 
 on:
   # 1. Déclenchement planifié (Cron UTC)
-  schedule:
+  #schedule:
     # Exécution du lundi au vendredi à 06:00 UTC (ex: 07:00 ou 08:00 heure française)
-    - cron: '33 3 * * 1-6'
+    #- cron: '33 3 * * 1-6'
 
   # 2. Permet aussi de déclencher le workflow manuellement depuis l'interface GitHub
   workflow_dispatch:
