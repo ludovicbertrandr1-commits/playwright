@@ -1,0 +1,12 @@
+Résultat global : OK
+Tests exécutés : 9 (9 OK, 0 KO, 0 flaky)
+Tests ignorés : 0
+
+Résultats par navigateur :
+- chromium: 3 OK, 0 KO, 0 flaky, 0 ignorés
+- firefox: 3 OK, 0 KO, 0 flaky, 0 ignorés
+- webkit: 3 OK, 0 KO, 0 flaky, 0 ignorés
+
+Dashboard : https://ludovicbertrandr1-commits.github.io/playwright/
+Rapport détaillé : https://ludovicbertrandr1-commits.github.io/playwright/reports/37715822516-1/
+Exécution GitHub Actions : https://github.com/ludovicbertrandr1-commits/playwright/actions/runs/37715822516
