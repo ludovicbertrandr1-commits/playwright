@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playwright | Résultats des tests</title>
+  <style>
+    :root { color-scheme: light; --ink: #202b27; --muted: #61706a; --line: #d8dfda; --paper: #f5f7f4; --green: #176b4d; --red: #b42318; --amber: #936300; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 15px/1.5 system-ui, sans-serif; }
+    main { width: min(1120px, calc(100% - 40px)); margin: 42px auto; }
+    header { border-bottom: 3px solid var(--ink); padding-bottom: 20px; margin-bottom: 28px; }
+    h1 { margin: 0; font-size: 30px; }
+    h2 { margin: 34px 0 12px; font-size: 19px; }
+    .status { color: var(--green); font-weight: 700; }
+    .metrics { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 14px; color: var(--muted); }
+    .metrics strong { color: var(--ink); }
+    table { width: 100%; border-collapse: collapse; text-align: left; background: white; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    a { color: var(--green); }
+    footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 600px) { main { width: min(100% - 24px, 1120px); margin: 24px auto; } table { font-size: 13px; } th, td { padding: 8px 6px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Résultats des tests Playwright</h1>
+      <div class="metrics"><span>Dernière exécution : <strong class="status">OK</strong></span><span>9 tests exécutés</span><span>9 OK</span><span>0 KO</span><span>0 flaky</span><span>0 ignorés</span></div>
+      <p><a href="https://ludovicbertrandr1-commits.github.io/ludovicbertrandr1-commits/playwright/reports/37710227599-1/">Ouvrir le rapport détaillé de cette exécution</a></p>
+    </header>
+    <h2>Résultats par navigateur</h2>
+    <table><thead><tr><th>Navigateur</th><th>Exécutés</th><th>OK</th><th>KO</th><th>Flaky</th><th>Ignorés</th></tr></thead><tbody><tr><td>chromium</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>firefox</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>webkit</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
+    <h2>Historique des exécutions</h2>
+    <table><thead><tr><th>Date (UTC)</th><th>Workflow</th><th>Résultat</th><th>Rapport</th></tr></thead><tbody><tr><td>08/10/2026 00:57:24</td><td>Playwright Tests</td><td>OK</td><td><a href="https://ludovicbertrandr1-commits.github.io/ludovicbertrandr1-commits/playwright/reports/37710227599-1/">Rapport</a></td></tr></tbody></table>
+    <footer>Les rapports sont conservés dans GitHub Pages. Les exécutions de pull request restent disponibles comme artefacts GitHub Actions.</footer>
+  </main>
+</body>
+</html>
