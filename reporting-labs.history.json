@@ -1,0 +1,303 @@
+[
+ {
+  "time": 1791573670233,
+  "duration": 40273.893,
+  "passed": 9,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 9,
+  "tests": {
+   "chromium::e2e/example.spec.js::has title": [
+    "p",
+    2021
+   ],
+   "chromium::e2e/example.spec.js::get started link": [
+    "p",
+    2650
+   ],
+   "chromium::e2e/saq.spec.js::test": [
+    "p",
+    11005
+   ],
+   "firefox::e2e/example.spec.js::has title": [
+    "p",
+    4569
+   ],
+   "firefox::e2e/example.spec.js::get started link": [
+    "p",
+    4507
+   ],
+   "firefox::e2e/saq.spec.js::test": [
+    "p",
+    13744
+   ],
+   "webkit::e2e/example.spec.js::has title": [
+    "p",
+    3494
+   ],
+   "webkit::e2e/example.spec.js::get started link": [
+    "p",
+    4256
+   ],
+   "webkit::e2e/saq.spec.js::test": [
+    "p",
+    10810
+   ]
+  }
+ },
+ {
+  "time": 1791574002656,
+  "duration": 38532.869,
+  "passed": 9,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 9,
+  "tests": {
+   "chromium::e2e/example.spec.js::has title": [
+    "p",
+    1569
+   ],
+   "chromium::e2e/example.spec.js::get started link": [
+    "p",
+    2582
+   ],
+   "chromium::e2e/saq.spec.js::test": [
+    "p",
+    9090
+   ],
+   "firefox::e2e/example.spec.js::has title": [
+    "p",
+    4090
+   ],
+   "firefox::e2e/example.spec.js::get started link": [
+    "p",
+    3985
+   ],
+   "firefox::e2e/saq.spec.js::test": [
+    "p",
+    13827
+   ],
+   "webkit::e2e/example.spec.js::has title": [
+    "p",
+    3493
+   ],
+   "webkit::e2e/example.spec.js::get started link": [
+    "p",
+    4572
+   ],
+   "webkit::e2e/saq.spec.js::test": [
+    "p",
+    10334
+   ]
+  }
+ },
+ {
+  "time": 1791574822073,
+  "duration": 41716.485,
+  "passed": 9,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 9,
+  "tests": {
+   "chromium::e2e/example.spec.js::has title": [
+    "p",
+    1861
+   ],
+   "chromium::e2e/example.spec.js::get started link": [
+    "p",
+    2044
+   ],
+   "chromium::e2e/saq.spec.js::test": [
+    "p",
+    8127
+   ],
+   "firefox::e2e/example.spec.js::has title": [
+    "p",
+    4341
+   ],
+   "firefox::e2e/example.spec.js::get started link": [
+    "p",
+    3688
+   ],
+   "firefox::e2e/saq.spec.js::test": [
+    "p",
+    18883
+   ],
+   "webkit::e2e/example.spec.js::has title": [
+    "p",
+    2832
+   ],
+   "webkit::e2e/example.spec.js::get started link": [
+    "p",
+    6158
+   ],
+   "webkit::e2e/saq.spec.js::test": [
+    "p",
+    13428
+   ]
+  }
+ },
+ {
+  "time": 1791575356486,
+  "duration": 14660.911999999998,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::test": [
+    "p",
+    11463
+   ]
+  }
+ },
+ {
+  "time": 1791575546007,
+  "duration": 14754.629,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    11797
+   ]
+  }
+ },
+ {
+  "time": 1791575628172,
+  "duration": 14644.000000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    11450
+   ]
+  }
+ },
+ {
+  "time": 1791575776450,
+  "duration": 14792.61,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    12560
+   ]
+  }
+ },
+ {
+  "time": 1791575845447,
+  "duration": 13667.162,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    11134
+   ]
+  }
+ },
+ {
+  "time": 1791575950798,
+  "duration": 13016.467,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    10372
+   ]
+  }
+ },
+ {
+  "time": 1791576097884,
+  "duration": 34678.516,
+  "passed": 9,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 9,
+  "tests": {
+   "chromium::e2e/example.spec.js::has title": [
+    "p",
+    1373
+   ],
+   "chromium::e2e/example.spec.js::get started link": [
+    "p",
+    1870
+   ],
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    7337
+   ],
+   "firefox::e2e/example.spec.js::has title": [
+    "p",
+    4332
+   ],
+   "firefox::e2e/example.spec.js::get started link": [
+    "p",
+    7465
+   ],
+   "firefox::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    10160
+   ],
+   "webkit::e2e/example.spec.js::has title": [
+    "p",
+    2098
+   ],
+   "webkit::e2e/example.spec.js::get started link": [
+    "p",
+    3215
+   ],
+   "webkit::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    8680
+   ]
+  }
+ },
+ {
+  "time": 1791576237598,
+  "duration": 23059.077,
+  "passed": 3,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 3,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    10153
+   ],
+   "firefox::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    12873
+   ],
+   "webkit::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    9077
+   ]
+  }
+ }
+]
