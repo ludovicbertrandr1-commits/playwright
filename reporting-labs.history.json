@@ -443,5 +443,35 @@
     0
    ]
   }
+ },
+ {
+  "time": 1791760199683,
+  "duration": 11386.979,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "Mobile Chrome::e2e/saq_bis.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    9408
+   ]
+  }
+ },
+ {
+  "time": 1791760331449,
+  "duration": 12220.703,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "Mobile Chrome::e2e/saq_bis.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    10187
+   ]
+  }
  }
 ]

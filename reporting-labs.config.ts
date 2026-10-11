@@ -34,7 +34,7 @@ const config: ReportingLabsOptions = {
   emitJson: true,                                     // also write report.json (used by `reporting-labs merge` for sharded runs)
   embedAttachments: true,                             // inline screenshots as base64: one file, opens anywhere
   // embedLimit: 2 * 1024 * 1024,                     // attachments bigger than this (bytes) are copied as files
-  // embedVideos: false,                              // true = videos inside the HTML too (bigger file, no folder issues)
+  embedVideos: true,                                  // keep videos inside the HTML so reports stay self-contained
   // announce: true,                                  // print the report path after the run
   open: process.env.CI ? 'never' : 'on-failure',      // open locally on failure; never in CI
   // warnMissingMeta: true,                           // after the run, list tests that have no meta() in the console
