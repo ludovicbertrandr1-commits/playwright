@@ -299,5 +299,149 @@
     9077
    ]
   }
+ },
+ {
+  "time": 1791744384928,
+  "duration": 33098.948,
+  "passed": 1,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    8121
+   ],
+   "Mobile Chrome::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "f",
+    31321
+   ]
+  }
+ },
+ {
+  "time": 1791744590748,
+  "duration": 32462.568000000003,
+  "passed": 1,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    5460
+   ],
+   "Mobile Chrome::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "f",
+    31309
+   ]
+  }
+ },
+ {
+  "time": 1791750121023,
+  "duration": 32337.345999999998,
+  "passed": 1,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    6070
+   ],
+   "Mobile Chrome::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "f",
+    31091
+   ]
+  }
+ },
+ {
+  "time": 1791750834140,
+  "duration": 33514.774000000005,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "f",
+    31842
+   ],
+   "Mobile Chrome::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "f",
+    31397
+   ]
+  }
+ },
+ {
+  "time": 1791751074309,
+  "duration": 32532.364999999998,
+  "passed": 1,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    4999
+   ],
+   "Mobile Chrome::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "f",
+    31210
+   ]
+  }
+ },
+ {
+  "time": 1791751174473,
+  "duration": 7785.348,
+  "passed": 2,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    4784
+   ],
+   "Mobile Chrome::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    6599
+   ]
+  }
+ },
+ {
+  "time": 1791755467529,
+  "duration": 219.65600000000018,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 1,
+  "total": 1,
+  "tests": {
+   "chromium::e2e/saq.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "s",
+    0
+   ]
+  }
+ },
+ {
+  "time": 1791755472008,
+  "duration": 210.84400000000005,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 1,
+  "total": 1,
+  "tests": {
+   "Mobile Chrome::e2e/saq_bis.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "s",
+    0
+   ]
+  }
  }
 ]

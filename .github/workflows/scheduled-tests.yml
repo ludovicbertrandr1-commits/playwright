@@ -8,6 +8,25 @@ on:
 
   # 2. Permet aussi de déclencher le workflow manuellement depuis l'interface GitHub
   workflow_dispatch:
+    inputs:
+      test_file:
+        description: 'Fichier de test à exécuter'
+        type: choice
+        required: true
+        default: all
+        options:
+          - all
+          - e2e/saq.spec.js
+          - e2e/saq_bis.spec.js
+      target:
+        description: 'Environnement à tester'
+        type: choice
+        required: true
+        default: both
+        options:
+          - both
+          - desktop
+          - mobile
 
 jobs:
   test:
@@ -27,10 +46,24 @@ jobs:
         run: npm ci
 
       - name: Installer les navigateurs Playwright
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps chromium
 
       - name: Exécuter la suite de tests
-        run: npx playwright test
+        env:
+          TEST_FILE: ${{ inputs.test_file || 'all' }}
+          TARGET: ${{ inputs.target || 'both' }}
+        run: |
+          args=()
+          if [[ "$TEST_FILE" != "all" ]]; then
+            args+=("$TEST_FILE")
+          fi
+
+          case "$TARGET" in
+            desktop) args+=(--project=chromium) ;;
+            mobile) args+=(--project="Mobile Chrome") ;;
+          esac
+
+          npx playwright test "${args[@]}"
 
       - name: Sauvegarder le rapport de test
         uses: actions/upload-artifact@v4
