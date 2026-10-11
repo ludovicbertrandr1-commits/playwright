@@ -42,12 +42,12 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'Desktop Chrome - chromium',
       use: { ...devices['Desktop Chrome'] },
     },
 
     {
-      name: 'Mobile Chrome',
+      name: 'Pixel 10 - Mobile Chrome',
       use: { ...devices['Pixel 10'] },
     },
 

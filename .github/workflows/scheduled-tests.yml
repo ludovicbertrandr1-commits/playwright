@@ -59,8 +59,8 @@ jobs:
           fi
 
           case "$TARGET" in
-            desktop) args+=(--project=chromium) ;;
-            mobile) args+=(--project="Mobile Chrome") ;;
+            desktop) args+=(--project="Desktop Chrome - chromium") ;;
+            mobile) args+=(--project="Pixel 10 - Mobile Chrome") ;;
           esac
 
           npx playwright test "${args[@]}"
