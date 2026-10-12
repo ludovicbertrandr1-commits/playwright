@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { meta } from 'reporting-labs';
 
 test('Affiche Inspiration apres acceptation des cookies', async ({ page }, testInfo) => {
-  meta({ priority: 'P2', feature: 'Navigation' });
+  meta({ priority: 'P2', feature: 'Navigation', device: testInfo.project.name });
 
   await test.step('Ouvrir le site SAQ', async () => {
     await page.goto('https://www.saq.com/');

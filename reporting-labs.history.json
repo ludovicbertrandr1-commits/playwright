@@ -526,5 +526,20 @@
     10836
    ]
   }
+ },
+ {
+  "time": 1791763197017,
+  "duration": 15797.286999999998,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "Pixel 10 - Mobile Chrome::e2e/saq_bis.spec.js::Affiche Inspiration apres acceptation des cookies": [
+    "p",
+    13814
+   ]
+  }
  }
 ]

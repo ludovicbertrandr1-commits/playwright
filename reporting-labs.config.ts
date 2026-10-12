@@ -49,7 +49,7 @@ const config: ReportingLabsOptions = {
   // for it, e.g. meta({ team: 'web' }) + 'team' here = a "Team" tab showing pass/fail per team.
   // Keys like epic and story do not need to be here: they show as chips and links on every test anyway.
   // dimensions: ['priority', 'severity', 'feature', 'owner', 'team'],
-  dimensions: ['feature'],
+  dimensions: ['feature', 'device'],
   //
   // dimensionOrder: the order values appear in those charts and filters. Priority (P0..P4) and
   // severity (blocker..trivial) are already ordered. Set this only for your own values,
